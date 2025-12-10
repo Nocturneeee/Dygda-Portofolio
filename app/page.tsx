@@ -11,7 +11,7 @@ export default function HomePage() {
 
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="container py-20 md:py-32">
+        <section className="px-4 sm:px-6 lg:px-8 py-20 md:py-32 mx-auto max-w-6xl">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
@@ -19,8 +19,8 @@ export default function HomePage() {
                 <span className="block text-primary mt-2">UI/UX Designer & Developer</span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg">
-                Seorang mahasiswa yang bersemangat dalam desain UI/UX dan pengembangan web. Saya senang menciptakan
-                pengalaman digital yang menarik dan fungsional.
+                      Seorang mahasiswa yang bersemangat dalam desain UI/UX dan pengembangan web. Saya senang menciptakan
+                      pengalaman digital yang menarik dan fungsional.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Button asChild size="lg">
@@ -46,7 +46,7 @@ export default function HomePage() {
 
         {/* Quick Introduction */}
         <section className="bg-muted/50 py-16">
-          <div className="container">
+          <div className="px-4 sm:px-6 lg:px-8 mx-auto max-w-6xl">
             <div className="max-w-3xl mx-auto text-center space-y-4">
               <h2 className="text-3xl font-bold">Tentang Saya</h2>
               <p className="text-muted-foreground leading-relaxed">
@@ -62,7 +62,7 @@ export default function HomePage() {
         </section>
 
         {/* Contact Section */}
-        <section className="container py-16">
+        <section className="px-4 sm:px-6 lg:px-8 py-16 mx-auto max-w-6xl">
           <div className="max-w-3xl mx-auto text-center space-y-8">
             <h2 className="text-3xl font-bold">Mari Terhubung</h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">

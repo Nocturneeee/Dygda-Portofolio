@@ -4,7 +4,7 @@ import { Instagram, Mail, Github, Linkedin } from "lucide-react"
 export function Footer() {
   return (
     <footer className="border-t bg-muted/50">
-      <div className="container py-12">
+      <div className="px-4 sm:px-6 lg:px-8 py-12 mx-auto max-w-6xl">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* About Section */}
           <div>
